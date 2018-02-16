@@ -70,6 +70,7 @@ header .flex {
   padding: 1.5rem 5rem;
   margin-top: 10rem;
   margin-right: -2rem;
+  display: inline-block;
 }
 
 .supporting {
@@ -124,4 +125,28 @@ footer img {
   margin-right: 1rem;
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  nav.container {
+    max-width: 100%;
+  }
+
+  header {
+    padding-top: 0;
+    height: 22rem;
+  }
+
+  .main-banner {
+    font-size: 1.33rem;
+    line-height: 2.4rem;
+    font-weight: bold;
+    background-color: white;
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+
 }
