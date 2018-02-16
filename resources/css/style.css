@@ -148,5 +148,80 @@ footer img {
     margin-right: 2rem;
   }
 
+@media only screen and (max-width: 470px) {
+
+  header {
+    height: 17rem;
+  }
+
+  .container span {
+  display: none;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .truncated-menu {
+    display: block;
+    text-align: center;
+  }
+
+  .main-banner {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: white;
+    padding: 0 1rem;
+    margin: 9rem auto 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  header {
+    background-position: 20%;
+  }
+
+  .supporting {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem;
+  }
+
+  .service {
+    font-size: 0.77rem;
+    height: auto;
+    margin: 0.77rem;
+  }
+
+  .title {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .info {
+    width: auto;
+  }
+
+  .info p {
+    padding: 1rem;
+    font-size: 0.77rem;
+  }
+
+  footer div {
+    display: none;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+  footer img {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
 }
